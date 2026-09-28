@@ -53,4 +53,5 @@ port: It monitors Port 5005 (the specific channel where the knee brace broadcast
 
 max_len: It catches incoming Data Points (sensor measurements) and keeps a rolling memory 
 of the last few seconds (maxlen) so it can draw smooth, moving graphs.'''
-        super().__init__(daemon=True) #<---- this makes it so program stops when main program is closed.
+        super().__init__(daemon=True) #<---- this makes it so program stops when main program is closed.]
+
